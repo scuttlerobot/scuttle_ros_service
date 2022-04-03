@@ -1,5 +1,5 @@
 [Service]
-Type = forking
+Type = simple
 ExecStart = /home/pi/scuttle_ws/src/scuttle_ros_service/scripts/run_ros.sh
 Restart = on-failure
 User = pi
