@@ -1,0 +1,14 @@
+[Service]
+Type = simple
+ExecStart = /home/pi/scuttle_ws/src/scuttle_ros_service/scripts/run_ros.sh
+Restart = on-failure
+User = pi
+WorkingDirectory = /home/pi/scuttle_ws
+
+[Unit]
+Description = Runs a ROS launch file that starts all the ROS services for this robot
+Requires = network-online.target
+After = network-online.target
+
+[Install]
+WantedBy = multi-user.target
