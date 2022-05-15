@@ -2,4 +2,4 @@
 # the repo. Unless a later match takes precedence,
 # @scuttlerobot/ros-contributors will be requested for
 # review when someone opens a pull request.
-@scuttlerobot/ros-contributors
+*       @scuttlerobot/ros-contributors
