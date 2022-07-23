@@ -29,15 +29,15 @@ created. Note that the script and the systemd configuration file assume that you
 you have created a different directory then you will need to update the following files to point
 to the correct location.
 
-* [systemd/ros.service](https://github.com/scuttlerobot/scuttle_ros_service/blob/noetic/systemd/ros.service)
-* [scripts/run_ros.sh](https://github.com/scuttlerobot/scuttle_ros_service/blob/noetic/scripts/run_ros.sh)
-* [scripts/setup_ros_daemon.sh](https://github.com/scuttlerobot/scuttle_ros_service/blob/noetic/scripts/setup_ros_daemon.sh)
+* [systemd/ros.service](systemd/ros.service)
+* [scripts/run_ros.sh](scripts/run_ros.sh)
+* [scripts/setup_ros_daemon.sh](scripts/setup_ros_daemon.sh)
 
 If the script files point to the correct location, then you can run the
-[`scripts/setup_ros_daemon.sh`](https://github.com/scuttlerobot/scuttle_ros_service/blob/noetic/scripts/setup_ros_daemon.sh)
+[`scripts/setup_ros_daemon.sh`](scripts/setup_ros_daemon.sh)
 script which will configure a systemd service that will start ROS.
 
-*Note:* The [systemd/ros.service](https://github.com/scuttlerobot/scuttle_ros_service/blob/noetic/systemd/ros.service)
+*Note:* The [systemd/ros.service](systemd/ros.service)
 assumes that there is a user with the username `pi` on the system. If you want to run your ROS nodes
 as a different user then you'll need to change the username in the `ros.service` file.
 
