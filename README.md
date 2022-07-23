@@ -10,8 +10,7 @@ The configurations in this repository assume you have the following prerequisite
 device on which you want to run this code. That device might be an Ubuntu machine or a physical
 SCUTTLE using Raspberry Pi OS.
 
-1. [ROS Noetic](http://wiki.ros.org/noetic) with the `ros-noetic-navigation`, `ros-noetic-robot` and
-   `ros-noetic-tf2` packages.
+1. [ROS Noetic](http://wiki.ros.org/noetic).
 1. A working [ROS workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
 1. The [scuttle_bringup](https://github.com/scuttlerobot/scuttle_bringup) package installed
    in your workspace.
